@@ -16,7 +16,7 @@ export const Tracker: React.FC<Props> = ({ className }) => {
       />
       <img
         src="/3d.png"
-        className="absolute left-[-80px] top-[260px] w-[150px] max-sm:left-[350px] max-sm:w-[80px] max-sm:top-[20px]"
+        className="absolute left-[-80px] top-[260px] w-[150px] max-sm:left-[330px] max-sm:w-[80px] max-sm:top-[90px]"
       />
       <Container className="flex flex-col py-[20px] ml-[200px] max-sm:ml-0 max-sm:px-2 max-sm:py-0 max-sm:pt-10 max-sm:pb-0">
         <Title
