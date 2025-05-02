@@ -11,9 +11,16 @@ export const Navigations: React.FC<Props> = ({ className }) => {
   return (
     <div className={cn("flex items-center gap-8", className)}>
       {nav.map((item, index) => (
-        <button onClick={() => setActive(index)} key={index} className={cn("hover:text-[#FF553E] hover:mb-1 transition-all cursor-pointer",
-          {"border-b-2 border-[#FF553E]":active === index}
-        )}>
+        <button
+          onClick={() => setActive(index)}
+          key={index}
+          className={cn(
+            "border-b-2 transition-all duration-300 hover:text-[#FF553E] cursor-pointer",
+            active === index
+              ? "border-[#FF553E] text-[#FF553E]"
+              : "border-transparent"
+          )}
+        >
           {item}
         </button>
       ))}

@@ -1,8 +1,12 @@
 import {
   AnalyticsBlock,
   Footer,
+  GetItNowBlock,
   Header,
+  PriceBlock,
+  SeeOurBlock,
   SomeExelentblock,
+  Tracker,
 } from "@/shared/components";
 
 export default function Home() {
@@ -11,7 +15,10 @@ export default function Home() {
       <Header />
       <SomeExelentblock />
       <AnalyticsBlock />
-
+      <Tracker />
+      <PriceBlock/>
+      <SeeOurBlock/>
+      <GetItNowBlock/>
       <div className="mt-auto">
         <Footer />
       </div>
