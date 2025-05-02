@@ -17,7 +17,7 @@ export const Header: React.FC<Props> = ({ className }) => {
         className="relative z-10 pb-[200px] "
         style={{ backgroundImage: "url(/header.png)" }}
       >
-        <Container className="pt-10 flex items-center justify-between max-sm:pt-4 ">
+        <Container className="pt-10 flex items-center justify-between max-sm:pt-4 max-sm:px-4">
           <img
             src="/Logo.png"
             className={cn("w-[178px] h-[40px] max-sm:w-[130px] max-sm:h-[30px]")}

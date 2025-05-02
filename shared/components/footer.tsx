@@ -14,8 +14,8 @@ const imglinks = [
 ];
 export const Footer: React.FC<Props> = ({ className }) => {
   return (
-    <div className="mt-[50px] py-[50px] max-sm:pb-[300px] max-sm:mt-0">
-      <Container>
+    <div className="mt-[50px] py-[50px] max-sm:pb-[100px] max-sm:mt-0 ">
+      <Container className="max-sm:px-4">
         <div className="flex items-center justify-between max-sm:flex-col max-sm:items-start">
           <img src="/Logo.png" alt="logo"/>
           <div className="flex items-center gap-[200px] max-sm:flex-col-reverse max-sm:gap-8 max-sm:items-start">

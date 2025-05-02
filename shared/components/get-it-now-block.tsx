@@ -10,7 +10,7 @@ export const GetItNowBlock: React.FC<Props> = ({ className }) => {
   return (
     <div className=" bg-[#FFF8F2] relative ">
         <img src="/hand1.png" className="absolute top-[80px] left-[0] w-[200px] max-sm:hidden"/>
-      <Container className="flex gap-[150px] pt-[100px] justify-center items-center max-sm:justify-start max-sm:pt-[50px] max-sm:pb-[50px]">
+      <Container className="flex gap-[150px] pt-[100px] justify-center items-center max-sm:justify-start max-sm:pt-[50px] max-sm:pb-[50px] max-sm:px-4">
         <div>
           <Title text="Get it now for free" className="text-[48px] font-bold max-sm:text-[28px]" />
           <p className="text-[18px] font-normal text-gray-400 w-[475px] leading-[30px] max-sm:text-[14px] max-sm:w-[350px]">

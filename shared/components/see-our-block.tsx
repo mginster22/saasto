@@ -9,7 +9,7 @@ interface Props {
 export const SeeOurBlock: React.FC<Props> = ({ className }) => {
   return (
     <div className="mt-10 bg-[#F3FDFE] max-sm:mt-4">
-      <Container className="flex gap-4 max-sm:flex-col-reverse py-8">
+      <Container className="flex gap-4 max-sm:flex-col-reverse py-8 max-sm:px-4">
         <div className="flex gap-6 ">
           <div className="flex flex-col gap-8 ">
             <img src="/log1.png" className="w-[240px] ml-auto max-sm:hidden" />
