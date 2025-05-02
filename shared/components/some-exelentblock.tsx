@@ -13,8 +13,8 @@ export const SomeExelentblock: React.FC<Props> = ({ className }) => {
   return (
     <div className={cn("relative mt-[50px] pb-[100px] ", className)}>
         <img src="/vector22.png" className="absolute top-[-70px] max-sm:hidden"/>
-      <Container className=" flex flex-col gap-4 items-center  relative ">
-            <img src="/rocket.png" className="absolute right-0 top-[-50px] max-sm:w-[90px] max-sm:left-[-30px] max-sm:top-[-120px]"/>
+      <Container className=" flex flex-col gap-4 items-center  relative max-sm:px-2 ">
+            <img src="/rocket.png" className="absolute right-0 top-[-50px] max-sm:w-[90px] max-sm:left-[-10px] max-sm:top-[-120px]"/>
         <Title
           text="Some excellent features for you"
           className="font-bold text-[48px] text-center w-[800px] max-sm:text-[28px] max-sm:w-[380px] "

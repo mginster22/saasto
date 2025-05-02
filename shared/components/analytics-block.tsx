@@ -11,7 +11,7 @@ interface Props {
 export const AnalyticsBlock: React.FC<Props> = ({ className }) => {
   return (
     <div className={cn("flex  gap-10 mt-[20px] max-sm:flex-col ", className)}>
-      <div className="w-[700px] max-sm:w-[400px]">
+      <div className="w-[700px] max-sm:w-[380px]">
         <img src="/Objects.png" />
       </div>
       <div className="w-[600px] mt-14 max-sm:w-[430px] max-sm:mt-0">

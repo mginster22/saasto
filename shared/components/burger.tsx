@@ -33,7 +33,7 @@ export const Burger: React.FC<Props> = ({ className }) => {
       </div>
       <div
         className={cn(
-          "transition-all duration-300 ease-in-out overflow-hidden absolute right-[70px] top-[-2px]",
+          "transition-all duration-300 ease-in-out overflow-hidden absolute right-[50px] top-[-2px]",
          
           active
             ? "opacity-100 max-h-[200px] translate-y-0"

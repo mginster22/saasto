@@ -17,7 +17,7 @@ export const Header: React.FC<Props> = ({ className }) => {
         className="relative z-10 pb-[200px] "
         style={{ backgroundImage: "url(/header.png)" }}
       >
-        <Container className="pt-10 flex items-center justify-between max-sm:pt-4 max-sm:px-4">
+        <Container className="pt-10 flex items-center justify-between max-sm:pt-4 max-sm:px-2">
           <img
             src="/Logo.png"
             className={cn("w-[178px] h-[40px] max-sm:w-[130px] max-sm:h-[30px]")}
@@ -28,7 +28,7 @@ export const Header: React.FC<Props> = ({ className }) => {
           <Burger />
         </Container>
 
-        <Container className="flex flex-col gap-4 items-center mt-[200px] relative max-sm:mt-[100px] max-sm:items-start">
+        <Container className="flex flex-col gap-4 items-center mt-[200px] relative max-sm:mt-[100px] max-sm:items-start max-sm:px-4">
           <Title
             text="A collaborative  Time Tracking that you Need"
             className="font-bold text-[4em] text-center w-[800px] max-sm:text-[28px] max-sm:w-[300px] max-sm:text-start"
@@ -66,7 +66,7 @@ export const Header: React.FC<Props> = ({ className }) => {
         className="absolute  bottom-[80px]  transform  z-30  px-10 py-10  w-full flex justify-center items-center card"
         
       >
-        <div className="flex justify-between w-[600px] ">
+        <div className="flex justify-between max-w-[600px] max-sm:w-[400px] max-sm:px-2">
           <div className="flex flex-col gap-2 items-center">
             <strong className="text-3xl font-extrabold">150k</strong>
             <span className="text-gray-500">Active users</span>
