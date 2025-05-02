@@ -30,11 +30,11 @@ export const Tracker: React.FC<Props> = ({ className }) => {
 
         <div className="flex max-sm:flex-col ">
           <TrackerCard className="mt-10 flex flex-col  gap-[50px] max-sm:gap-[10px] " />
-          <div className=" flex max-sm:flex-col-reverse  max-sm:items-center max-sm:mx-auto max-sm:mt-[20px] ">
+          <div className=" flex max-sm:w-[400px] max-sm:flex-col-reverse  max-sm:items-center max-sm:mx-auto max-sm:mt-[20px] ">
             <div className="flex flex-col max-sm:items-start">
               <img
                 src="/kit1.png"
-                className="max-w-[445px] w-[295px]   max-sm:w-[420px] max-sm:translate-y-[-60px]"
+                className="max-w-[445px] w-full max-sm:w-[400px] max-sm:translate-y-[-60px] "
               />
               <img
                 src="/kit2.png"
@@ -43,7 +43,7 @@ export const Tracker: React.FC<Props> = ({ className }) => {
             </div>
             <img
               src="/kit3.png"
-              className=" max-w-[400px] w-[400px] max-sm:w-[380px] max-sm:h-[440px] h-[484px] translate-x-[-30px] translate-y-[30px] max-sm:translate-0 "
+              className=" max-w-[400px] w-[400px] max-sm:w-[360px] max-sm:h-[440px] h-[484px] translate-x-[-30px] translate-y-[30px] max-sm:translate-x-0 max-sm:translate-y-0"
             />
           </div>
         </div>

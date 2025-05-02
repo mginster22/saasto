@@ -20,11 +20,13 @@ export const Header: React.FC<Props> = ({ className }) => {
         <Container className="pt-10 flex items-center justify-between max-sm:pt-4 max-sm:px-2">
           <img
             src="/Logo.png"
-            className={cn("w-[178px] h-[40px] max-sm:w-[130px] max-sm:h-[30px]")}
+            className={cn(
+              "w-[178px] h-[40px] max-sm:w-[130px] max-sm:h-[30px]"
+            )}
             alt="logo"
           />
-          <Navigations className="max-sm:hidden"/>
-          <AuthButtons className="max-sm:hidden"/>
+          <Navigations className="max-sm:hidden" />
+          <AuthButtons className="max-sm:hidden" />
           <Burger />
         </Container>
 
@@ -62,10 +64,7 @@ export const Header: React.FC<Props> = ({ className }) => {
           className="absolute right-0 -bottom-[100px] w-[350px] h-[600px] object-cover max-sm:hidden"
         />
       </div>
-      <div
-        className="absolute  bottom-[80px]  transform  z-30  px-10 py-10  w-full flex justify-center items-center card"
-        
-      >
+      <div className="absolute  bottom-[80px]  transform  z-30  px-10 py-10  w-full flex justify-center items-center card">
         <div className="flex justify-between max-w-[600px] max-sm:w-[400px] max-sm:px-2">
           <div className="flex flex-col gap-2 items-center">
             <strong className="text-3xl font-extrabold">150k</strong>

@@ -14,7 +14,7 @@ export const AnalyticsBlock: React.FC<Props> = ({ className }) => {
       <div className="w-[700px] max-sm:w-[380px]">
         <img src="/Objects.png" />
       </div>
-      <div className="w-[600px] mt-14 max-sm:w-[430px] max-sm:mt-0">
+      <div className="w-[600px] mt-14 max-sm:w-[400px] max-sm:mt-0">
         <Title
           text="Analytics & Reporting Brackdown"
           className="font-bold text-[48px] max-sm:text-[28px] max-sm:text-center"
