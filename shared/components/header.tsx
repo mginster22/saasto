@@ -12,7 +12,7 @@ interface Props {
 
 export const Header: React.FC<Props> = ({ className }) => {
   return (
-    <header className={cn("relative pb-[200px] max-sm:pb-[100px]")}>
+    <header className={cn("relative pb-[200px] w-full max-sm:pb-[100px]")}>
       <div
         className="relative z-10 pb-[200px] "
         style={{ backgroundImage: "url(/header.png)" }}
